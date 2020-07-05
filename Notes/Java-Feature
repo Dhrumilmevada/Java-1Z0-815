@@ -1,0 +1,61 @@
+--> Most powerful language
+--> High Level Language
+	- Human readable and understandable
+
+--> 12 Buzzword for Java:-
+	-> Simple
+	-> platform independent
+		- By writing program and compiling it on any platform, you can able to execute it any platform
+		- need to convert byte code(.class) to machine level code, that is done by JVM
+		- We have JVM for every platform
+		- Just need to install platform specific JVM on target machine(Write Once Run Anywhere [WORA])
+		- JVM is platform dependent
+		- If you need to make some changed to compile source code on different platform than it called platform dependent.
+	-> Architecture neutral
+		- If any kind of upgrading related to os,processor or RAM was happened on target system, still java can run 
+		  without any modification.
+		- But you need to install JVM according to you upgraded hardware if required.
+	-> Portable
+		- you can migrate java program from one platform to other.
+		- If the re-compilation of source code on other platform to crete platform specific binary then it is called as Portable. 
+	-> Secure
+		- To run java program JVM is responsible.
+		- prior to execute java program, JVM will verify it for any security related issues.
+	-> Object-oriented
+		- Every things in java is object.
+		- It has all feature of object-oriented language like Inheritance, Polymorphism, Encapsulations.
+		- Multiple inheritance and operator overloading is not supported by Java.
+	-> Multi-threaded
+		- It support parallel execution of java program.
+	-> Robust
+		- it is strictly typed language.
+		- Possibility of failing of java program is tend to zero once it is compiled.
+		- With availability of garbage collections we never run out of memory.
+		- It can also handle exception very well.  
+	-> Distributed
+		- Application can be distributed over multiple JVM on different machine.
+	-> Compiled and Interpreted
+		- Java is both compiled and Interpreted language.
+		- Once program is compiled, then most of checks are done. So there is less check for interpreter at run time.
+		- So program execution is fast and secure.
+ 	-> High performance
+	 	- Java introduce JIT (Just In Time) compiler
+		- When piece of code used for multiple type then JIT will not interpreter it multiple time but just once.
+		- By this mechanism JVM performance get increase.
+		- JVM with JIT compiler is called as "Hotspot compiler" 
+	-> Dynamic
+		- Java is dynamic cause it loads required functionality when it required.
+
+--> Java can be distributed among the JVMs which required to send byte code from one machine to another which is called as Serialization.
+
+--> Java technology includes set of library supported by Java language.
+
+--> JDK vs JRE vs JVM:-
+	- JDK will allowed you to developed java code, compile it and run it.
+	- JDK is required by Java application developer.
+	- JRE juts allowed you to run pre-compiled java source code. It will be setup in deployment machine.
+	- JDK = JRE + development tool (i.e. compiler)
+	- JRE = JVM + Java libraries
+	- One can create own JRE using jlink in java 11.
+		- reference:- https://www.baeldung.com/jlink
+
